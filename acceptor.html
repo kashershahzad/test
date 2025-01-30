@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./White_Health_Medical_Center_Logo-removebg-preview.png">
+    <title>Acceptor</title>
+     <!-- Bootstrap CSS link -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+        <!-- FONTS -->
+    <!-- POPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Oswald:wght@500&family=Poppins&display=swap"
+        rel="stylesheet">
+    <!-- Acme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+       
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo -->
+
+        <a class=" logoimg" href="#"><img src="./White_Health_Medical_Center_Logo-removebg-preview.png" alt="Logo"
+                style="height: 8vh !important;"></a>
+        <p class="logo mt-3 ml-2">LOVE PULSE </p>
+        <p>WALFARE</p>
+
+        <!-- Toggle button for small screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation items -->
+        <div class="collapse navbar-collapse navitem" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link mx-3 btn-underline" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 btn-underline" href="./donor.html">DONOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 btn-underline" href="./acceptor.html">ACCEPTOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 btn-underline" href="./contact.html">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3 btn-underline" href="./about.html">ABOUT</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Login button -->
+        <a href="./login.html">
+        <button class="btn btn-outline-danger login-button" style="border-radius: 10px;">LOG IN</button>
+        </a>
+    </nav>
+
+    <div class="container-fluid ">
+        <div class="container-fluid mb-5 mt-5">
+            <h3 class="underline-heading mt-5 mb-5 ">Register Patient as Acceptor</h3>
+        </div>
+    </div>
+    <div class="container">
+    <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example1" class="form-control" />
+              <label class="form-label" for="form6Example1">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" />
+              <label class="form-label" for="form6Example2">Last name</label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example3" class="form-control" />
+          <label class="form-label" for="form6Example3">Your Profression</label>
+        </div>
+      
+        <!-- Text input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form6Example4" class="form-control" />
+          <label class="form-label" for="form6Example4">Home Address</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form6Example5" class="form-control" />
+          <label class="form-label" for="form6Example5">Email</label>
+        </div>
+      
+        <!-- Number input -->
+        <div class="form-outline mb-4">
+          <input type="number" id="form6Example6" class="form-control" />
+          <label class="form-label" for="form6Example6">Phone Number</label>
+        </div>
+        <!-- Blood Type -->
+        <div class="form-outline my-5">
+            <label class="form-label" for="form6Example6">Blood Type You Need</label>
+         <select name="country">
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+         </select>
+        </div>
+        <!-- Gender -->
+        <div class="form-outline mb-4 mx-3">
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female" class="ml-3" > Female
+        <input type="radio" name="gender" value="female" class="ml-3"> Other
+        </div>
+    <!-- Urgent -->
+    <div class="form-outline my-5 mx-3">
+      <input type="checkbox" name="urgrnt need" value="urgent"> Urgent Need?
+    </div>
+        <!-- Message input -->
+        <div class="form-outline my-5">
+          <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+          <label class="form-label" for="form6Example7">Additional information</label>
+        </div>
+      <!-- Submit -->
+      <div class="form-outline my-5">
+        <button type="button" class="btn btn-danger">Submit</button>
+      </div>
+    </div>
+      
+        
+      </form>
+
+       <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h4>company</h4>
+                  <ul>
+                      <li><a href="#">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                      <li><a href="#">affiliate program</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">shipping</a></li>
+                      <li><a href="#">returns</a></li>
+                      <li><a href="#">order status</a></li>
+                      <li><a href="#">payment options</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                      <li><a href="#">watch</a></li>
+                      <li><a href="#">bag</a></li>
+                      <li><a href="#">shoes</a></li>
+                      <li><a href="#">dress</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <!-- Bootstrap JS and jQuery scripts (required for the toggle button) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
